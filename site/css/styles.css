@@ -1,0 +1,136 @@
+body {
+font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+
+h2 {
+font-size: 2em;
+text-align: center;
+margin-top: 0px;
+
+}
+
+h3 {
+font-size: 1.5em;
+text-align: center;
+margin-top: 5px;
+}
+
+/** NAV BAR **/
+#header-nav {
+	background-color: #4c6d64;
+	border-radius: 0px;
+	border: 0;
+}
+
+.navbar-brand h1 { /** Food, LLC NAME **/
+font-family: 'Oswald', sans-serif;
+color: #ffffff;
+font-size: 1.5em;
+text-transform: uppercase;
+font-weight: bold;
+text-shadow: 1px 1px 1px #222;
+margin-top: 0;
+margin-bottom: 0;
+
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+text-decoration: none;
+}
+
+#navbar-toggle :hover {
+color: #82bfa3;
+margin-bottom: 0px;
+}
+
+#nav-list {
+font-size: 1.5em;
+margin-bottom: 0px;
+margin-top: 0px;
+background-color: #82bfa3;
+border-top: 5px;
+border-color: black;
+
+}
+
+#nav-list a {
+color: white;
+text-align: center;
+border: 2px;
+border-color: #ffffff;
+}
+
+#nav-list a:hover {
+	background: #000000;
+	margin: 0px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid #82bfa3;
+}
+
+/*** END OF NAV BAR ***/
+
+/*** END OF HEADER ***/
+
+/** HOMEPAGE **/
+
+#main-content-title {
+margin-top: 0px;
+}
+
+#Section-chicken {
+text-align: center;
+background-color: #82bfa3;
+width: 100%;
+margin-left: auto;
+margin-right: auto;
+padding-bottom: 1em;
+padding-bottom: 0.5em;
+}
+
+
+
+
+
+
+/***************************** LARGE DEVICES ONLY ******************************/
+@media (min-width: 1200px) {
+
+
+}
+
+
+
+
+/**************************** MEDIUM DEVICES ONLY *************************/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+
+
+
+
+
+/************************ SMALL DEVICES ONLY ***********************/
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+}
+
+
+
+
+/**************** EXTRA SMALL DEVICES ONLY ****************/
+@media (max-width: 767px) {
+
+
+}
+
+
+
+
+
+
